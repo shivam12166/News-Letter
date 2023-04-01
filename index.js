@@ -45,7 +45,5 @@ app.post("/failure", function(request, respond) {
     respond.redirect("/");
 })
 app.listen(3000, function() {
-        console.log("server is running on port 3000");
-    })
-    //Api key f8915e2bfbda9eda26359a91a3d04167-us18
-    //User id 88c5690180
+    console.log("server is running on port 3000");
+})
